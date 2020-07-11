@@ -51,11 +51,26 @@
     <div class="content">
         <form action="">
             <label for="username">Username</label>
-            <input type="text" name="a" id="username" placeholder="Enter Username">
+            <input type="text" name="username" id="us" placeholder="Enter Username">
             <label for="password">Password</label>
-            <input type="password" name="a" id="password" placeholder="Enter Password">
-            <input type="submit" name="a" id="submit" value="Login">
+            <input type="password" name="password" id="pw" placeholder="Enter Password">
+            <input type="submit" name="submit" id="sm" value="Login">
         </form>
     </div>
+    <script>
+        document.getElementById("sm").addEventListener("click", function(e){
+            var us = document.getElementById("us").value;
+            var pw = document.getElementById("pw").value;
+            if(us == 'admin' && pw == 'admin'){
+                var url = "info.html";
+                window.location = url;
+                e.preventDefault();
+            }else{
+                var url = "404.html";
+                window.location = url;
+                e.preventDefault();
+            }
+        });
+    </script>
   </body>
 </html>
