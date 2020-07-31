@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+hr{
+    margin: 10px 0;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.content{
+    padding: 0 20px;
+}
+.info__content{
+    width: 100%;
+    display: flex;
+}
+.info__content .info__prof, .info__avt{
+    width: 50%;
+}
+.info__content .info__avt img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 0 200px;
+}
+.info__prof .prof_spec{
+    font-size: 30px;
+    padding-top: 30px;
+}
+.info__prof .prof_spec p{
+    margin: 10px 0;
+}
+.pnf__content{
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 200px;
+    text-align: center;
+}
+.pnf__content h1{
+    font-size: 200px;
+    margin: 0;
+}
+.pnf__content p{
+    font-size: 30px;
+    margin: -5px 0;
+}
